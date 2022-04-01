@@ -129,8 +129,13 @@ header {
             background-color: #b62e2e;
         }
 
-        .sign-in a, 
-        .sing-up a {
+        .sign-in a {
+            font-size: 1.6rem;
+        
+            text-decoration: none;
+        }
+
+        .sign-up a {
             font-size: 1.6rem;
         
             text-decoration: none;
