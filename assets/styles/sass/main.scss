@@ -11,6 +11,7 @@ $dark-grey-font-color: #101828;
 
 // HEADER AREA
 header {
+
     .upper-section {
         width: 100vw;
         height: 8em;
@@ -51,96 +52,100 @@ header {
         font-size: 1.8rem;
         font-weight: 500;
     }
+
     
+    // NAV AREA
     .nav-container {
         width: 36.2rem;
         height: 3.2rem;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-    .nav-container ul li {
+
+    ul li {
         list-style: none;
-    
+
         display: inline-block;
-    
+
         font-size: 1.6rem;
     }
-    
-    .nav-container ul a {
+
+    ul a {
         text-decoration: none;
-    
+
         margin-right: 1.8rem;
-    
+
         color: var(--light-grey-font-color);
-    
+
         font-size: 500;
     }
-    
-    .nav-container ul a:visited {
+
+    ul a:visited {
         color: var(--light-grey-font-color);
     }
-    
-    .nav-container ul a:hover {
+
+    ul a:hover {
         color: #A2A8B6;
     }
-    
-    .nav-container ul a:last-child {
+
+    ul a:last-child {
         margin-right: 0;
     }
-    
+}
+
+
+    // BUTTONS AREA
     .buttons-container {
         width: 20.7rem;
         height: 4.4rem;
     
         display: flex;
         align-items: center;
-    }
-    
-    .buttons-container .sign-in {
-        width: 11.2rem;
-        height: 75%;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .buttons-container .sign-up {
-        width: 11.2rem;
-        height: 75%;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-        background-color: var(--default-red-color);
-    
-        border-radius: 0.8rem;
-    }
-    
-    .buttons-container .sign-up:hover {
-        background-color: #b62e2e;
-    }
-    
-    .buttons-container .sign-in a,
-    .buttons-container .sign-up a {
-        font-size: 1.6rem;
-    
-        text-decoration: none;
-    }
-    
-    .buttons-container .sign-in a {
-        color: var(--dark-grey-font-color);
-    }
-    
-    .buttons-container .sign-in a:hover {
-        color: grey;
-    }
-    
-    .buttons-container .sign-up a {
-        color: #FFF;
+
+        .sign-in {
+            width: 11.2rem;
+            height: 75%;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sign-up {
+            width: 11.2rem;
+            height: 75%;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            background-color: var(--default-red-color);
+        
+            border-radius: 0.8rem;
+        }
+
+        .sign-up:hover {
+            background-color: #b62e2e;
+        }
+
+        .sign-in a, 
+        .sing-up a {
+            font-size: 1.6rem;
+        
+            text-decoration: none;
+        }
+
+        .sign-in a {
+            color: var(--dark-grey-font-color);
+        }
+
+        .sign-in a:hover {
+            color: grey;
+        }
+
+        .sign-up a {
+            color: #FFF;
+        }
     }
 }
