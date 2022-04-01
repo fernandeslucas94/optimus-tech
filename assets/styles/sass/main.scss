@@ -1,18 +1,11 @@
-/* FONTS IMPORT, RESET AND ROOT */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    font-size: 10px;
-}
+$primary-dark-red-background: #8E2424;
+$light-gray-font-color: #667085;
+$dark-grey-font-color: #101828;
 
 :root {
-    --default-red-color: (#8E2424);
-    --light-grey-font-color: (#667085);
-    --dark-grey-font-color: (#101828);
+    --default-red-color: #{$primary-dark-red-background};
+    --light-grey-font-color: #{$light-gray-font-color};
+    --dark-grey-font-color: #{$dark-grey-font-color};
 }
 
 
@@ -91,7 +84,7 @@ header {
     }
     
     .nav-container ul a:hover {
-        color: grey;
+        color: #A2A8B6;
     }
     
     .nav-container ul a:last-child {
@@ -123,7 +116,7 @@ header {
         align-items: center;
         justify-content: center;
     
-        background-color: #8E2424;
+        background-color: var(--default-red-color);
     
         border-radius: 0.8rem;
     }

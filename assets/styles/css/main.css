@@ -1,17 +1,7 @@
-/* FONTS IMPORT, RESET AND ROOT */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
-}
-
 :root {
-  --default-red-color: (#8E2424);
-  --light-grey-font-color: (#667085);
-  --dark-grey-font-color: (#101828);
+  --default-red-color: #8E2424;
+  --light-grey-font-color: #667085;
+  --dark-grey-font-color: #101828;
 }
 
 header .upper-section {
@@ -67,7 +57,7 @@ header .nav-container ul a:visited {
   color: var(--light-grey-font-color);
 }
 header .nav-container ul a:hover {
-  color: grey;
+  color: #A2A8B6;
 }
 header .nav-container ul a:last-child {
   margin-right: 0;
@@ -91,7 +81,7 @@ header .buttons-container .sign-up {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #8E2424;
+  background-color: var(--default-red-color);
   border-radius: 0.8rem;
 }
 header .buttons-container .sign-up:hover {
