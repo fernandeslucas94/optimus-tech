@@ -1,6 +1,8 @@
 ## OptimusTech
 
-## This project is being developed on the #7DaysOfCode challenge, by Alura and Giovanna Moeller
+###
+
+This project are being developed on the #7DaysOfCode challenge, by Alura and Giovanna Moeller
 
 ###
 
