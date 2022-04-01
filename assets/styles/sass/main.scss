@@ -63,34 +63,32 @@ header {
         align-items: center;
         justify-content: center;
 
-    ul li {
-        list-style: none;
+    ul {
+        li {
+            list-style: none;
+    
+            display: inline-block;
+    
+            font-size: 1.6rem;
+        }
 
-        display: inline-block;
+        a {
+            text-decoration: none;
+    
+            margin-right: 1.8rem;
+    
+            color: var(--light-grey-font-color);
+    
+            font-size: 500;
+        }
 
-        font-size: 1.6rem;
-    }
+        a:hover {
+            color: #A2A8B6;
+        }
 
-    ul a {
-        text-decoration: none;
-
-        margin-right: 1.8rem;
-
-        color: var(--light-grey-font-color);
-
-        font-size: 500;
-    }
-
-    ul a:visited {
-        color: var(--light-grey-font-color);
-    }
-
-    ul a:hover {
-        color: #A2A8B6;
-    }
-
-    ul a:last-child {
-        margin-right: 0;
+        a:last-child {
+            margin-right: 0;
+        }
     }
 }
 
@@ -133,24 +131,20 @@ header {
             font-size: 1.6rem;
         
             text-decoration: none;
+
+            color: var(--dark-grey-font-color);
         }
 
         .sign-up a {
             font-size: 1.6rem;
         
             text-decoration: none;
-        }
 
-        .sign-in a {
-            color: var(--dark-grey-font-color);
+            color: #FFF;
         }
 
         .sign-in a:hover {
             color: grey;
-        }
-
-        .sign-up a {
-            color: #FFF;
         }
     }
 }

@@ -53,9 +53,6 @@ header .nav-container ul a {
   color: var(--light-grey-font-color);
   font-size: 500;
 }
-header .nav-container ul a:visited {
-  color: var(--light-grey-font-color);
-}
 header .nav-container ul a:hover {
   color: #A2A8B6;
 }
@@ -90,17 +87,13 @@ header .buttons-container .sign-up:hover {
 header .buttons-container .sign-in a {
   font-size: 1.6rem;
   text-decoration: none;
+  color: var(--dark-grey-font-color);
 }
 header .buttons-container .sign-up a {
   font-size: 1.6rem;
   text-decoration: none;
-}
-header .buttons-container .sign-in a {
-  color: var(--dark-grey-font-color);
+  color: #FFF;
 }
 header .buttons-container .sign-in a:hover {
   color: grey;
-}
-header .buttons-container .sign-up a {
-  color: #FFF;
 }
