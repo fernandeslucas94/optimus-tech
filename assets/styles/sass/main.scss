@@ -2,12 +2,6 @@ $primary-dark-red-background: #8E2424;
 $light-gray-font-color: #667085;
 $dark-grey-font-color: #101828;
 
-:root {
-    --default-red-color: #{$primary-dark-red-background};
-    --light-grey-font-color: #{$light-gray-font-color};
-    --dark-grey-font-color: #{$dark-grey-font-color};
-}
-
 
 // HEADER AREA
 header {
@@ -53,6 +47,8 @@ header {
         font-weight: 500;
     }
 
+
+    
     
     // NAV AREA
     .nav-container {
@@ -77,7 +73,7 @@ header {
     
             margin-right: 1.8rem;
     
-            color: var(--light-grey-font-color);
+            color: $light-gray-font-color;
     
             font-size: 500;
         }
@@ -91,6 +87,8 @@ header {
         }
     }
 }
+
+
 
 
     // BUTTONS AREA
@@ -118,7 +116,7 @@ header {
             align-items: center;
             justify-content: center;
         
-            background-color: var(--default-red-color);
+            background-color: $primary-dark-red-background;
         
             border-radius: 0.8rem;
         }
@@ -132,7 +130,7 @@ header {
         
             text-decoration: none;
 
-            color: var(--dark-grey-font-color);
+            color: $dark-grey-font-color;
         }
 
         .sign-up a {
