@@ -1,13 +1,14 @@
 $primary-dark-red-background: #8E2424;
 $light-gray-font-color: #667085;
 $dark-grey-font-color: #101828;
+$light-red-background: rgba(142, 36, 36, 0.05);
 
 
-// UPPER HEADER AREA
+// // UPPER HEADER AREA
 header {
 
     .upper-section {
-        width: 100vw;
+        width: 100%;
         height: 8em;
 
         display: flex;
@@ -23,7 +24,7 @@ header {
         align-items: center;
         justify-content: space-between;
 
-        padding: 0px 32px;
+        padding: 32px;
     }
 
     #logo-and-company-name {
@@ -32,19 +33,15 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-around;
-    }
 
-    #logo-and-company-name {
-        width: 20.7rem;
-    
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        padding-left: 11.2rem;
     }
     
     #logo-and-company-name p {
         font-size: 1.8rem;
         font-weight: 500;
+
+        margin-left: 0.8em;
     }
 
 
@@ -59,7 +56,7 @@ header {
         align-items: center;
         justify-content: center;
 
-        margin-left: -24.5rem;
+        margin-left: -11.9rem;
 
     ul {
         li {
@@ -95,11 +92,13 @@ header {
 
     // BUTTONS AREA
     .buttons-container {
-        width: 20.7rem;
+        width: 30rem;
         height: 4.4rem;
     
         display: flex;
         align-items: center;
+
+        padding-right: 11.2em;
 
         .sign-in {
             width: 11.2rem;
@@ -152,17 +151,17 @@ header {
 
 
 
-// CONTENT HEADER AREA
+// // CONTENT HEADER AREA
 
 #header {
+    
     .header-container {
         height: 40.7rem;
-        width: 100vw;
+        width: 100%;
 
         display: flex;
         flex-direction: column;
         align-items: center;
-
 
         padding: 9.6rem 0 9.6rem 0 ;
     }
@@ -203,21 +202,31 @@ header {
 
 
 
-// METRICAS AREA
+// // METRICAS AREA
 
 .metricas-container {
 
     height: 28.8rem;
-    width: 100vw;
+    width: 100%;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
 
+    padding: 0rem 0rem 9.6rem 0rem;
+
+    .metricas-data:first-child {
+        padding-left: 11.2rem;
+    }
+
+    .metricas-data:last-child {
+        margin-right: 11.2rem;
+    }
+
     .metricas-data {
 
-        width: 28rem;
-        height: 100%;
+        width: 100%;
+        height: 100%; 
 
         display: flex;
         flex-direction: column;
@@ -251,6 +260,75 @@ header {
         .data-description-container {
             width: 28rem;
             height: 7.2rem;
+        }
+    }
+}
+
+
+
+// TALENTS SECTION
+
+#talents {
+    width: 100%;
+    height: 179.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 9.6em 0em 9.6em 0em;
+
+    span {
+        
+        font: {
+            size: 1.4em;
+            weight: 500;
+        }
+
+        margin: {
+            bottom: 2rem;
+        }
+
+        color: $primary-dark-red-background;
+
+        background: $light-red-background;
+
+        padding: 0.4rem 1.2rem;
+
+        border-radius: 1.6rem;
+    }
+
+    h1 {
+        font: {
+            weight: 600;
+            size: 3.6em;
+        }
+
+        margin: {
+            bottom: 2rem;
+        }
+    }
+
+    p {
+        font: {
+            size: 2em;
+            weight: 400;
+        }
+
+        color: $light-gray-font-color;
+    }
+
+    figure {
+        margin-top: 6.4rem;
+    }
+
+    img {
+
+        width: 121.6rem;
+
+        padding: {
+            left: 11.2rem;
+            right: 11.2rem;
         }
     }
 }
