@@ -172,6 +172,7 @@ header .buttons-container .sign-in a:hover {
   flex-direction: column;
   align-items: center;
   padding: 9.6em 0em 9.6em 0em;
+  border: 1px solid red;
 }
 #talents span {
   font-size: 1.4em;
@@ -192,11 +193,14 @@ header .buttons-container .sign-in a:hover {
   font-weight: 400;
   color: #667085;
 }
-#talents figure {
-  margin-top: 6.4rem;
-}
-#talents img {
+#talents #team-img {
+  background-image: url("../../images/people-meeting.png");
+  background-size: cover;
+  position: absolute;
   width: 121.6rem;
-  padding-left: 11.2rem;
-  padding-right: 11.2rem;
+  height: 40rem;
+}
+#talents .job-oportunities {
+  background-color: blue;
+  width: 121.6rem;
 }
