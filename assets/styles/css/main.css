@@ -196,11 +196,26 @@ header .buttons-container .sign-in a:hover {
 #talents #team-img {
   background-image: url("../../images/people-meeting.png");
   background-size: cover;
-  position: absolute;
   width: 121.6rem;
   height: 40rem;
+  margin-bottom: 6.4rem;
+  margin-top: 6.4rem;
 }
 #talents .job-oportunities {
-  background-color: blue;
-  width: 121.6rem;
+  width: 128rem;
+}
+#talents .job-oportunities .job-container {
+  width: 100%;
+  height: 35.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#talents .job-oportunities span {
+  background-color: #FFF;
+  color: #101828;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 76.8rem;
+  margin-bottom: 3.2rem;
 }
